@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: rgb(0,174,255);
+    background: linear-gradient(90deg, rgba(0,174,255,1) 0%, rgba(13,193,182,1) 49%, rgba(0,212,255,1) 100%); 
+}
+
+main {
+    background-color:white;
+    border-radius: 25px;
+    padding: 1.5em;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.city {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#weather-container > h2 {
+    font-size: 1.25rem;
+}
